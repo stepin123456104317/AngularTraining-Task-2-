@@ -1,0 +1,8 @@
+<h2>List Users from Banglore </h2>
+{{values}}
+<div *ngFor="let obj of users" > 
+ <div *ngIf="obj.city=='banglore'"> 
+    {{obj.username}}
+</div>
+ </div>
+<app-hyderabad></app-hyderabad>
